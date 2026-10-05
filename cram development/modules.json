@@ -1,0 +1,557 @@
+{
+    "active": [
+        {
+            "code": "600*",
+            "name": "Statistics for Data Science",
+            "nqf_level": 6,
+            "credits": 15,
+            "current_phase": 3,
+            "ca_written": false,
+            "topics": [
+                {
+                    "number": 1,
+                    "name": "Types of Data and the Steps of Data Science",
+                    "arc": "ca",
+                    "sessions": [],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        }
+                    ]
+                },
+                {
+                    "number": 2,
+                    "name": "Basic Mathematics",
+                    "arc": "ca",
+                    "sessions": [],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        }
+                    ]
+                },
+                {
+                    "number": 3,
+                    "name": "Probability Theory and Distributions",
+                    "arc": "ca",
+                    "sessions": [],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        }
+                    ]
+                },
+                {
+                    "number": 4,
+                    "name": "Basic Statistics",
+                    "arc": "final",
+                    "sessions": [],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        }
+                    ]
+                },
+                {
+                    "number": 5,
+                    "name": "Inferential Statistics",
+                    "arc": "final",
+                    "sessions": [],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        }
+                    ]
+                },
+                {
+                    "number": 6,
+                    "name": "Techniques for Communicating Data",
+                    "arc": "final",
+                    "sessions": [],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        }
+                    ]
+                }
+            ],
+            "assignment": {
+                "total_q": 3,
+                "completed_q": 0,
+                "due_date": "2026-05-28",
+                "hours_spent": 0.0
+            },
+            "ca": {
+                "kind": "ca",
+                "due_date": "2026-05-26"
+            },
+            "final": {
+                "kind": "final",
+                "due_date": null
+            },
+            "archived": false
+        },
+        {
+            "code": "622",
+            "name": "Programming",
+            "nqf_level": 6,
+            "credits": 15,
+            "current_phase": 4,
+            "ca_written": true,
+            "topics": [
+                {
+                    "number": 1,
+                    "name": "Software Engineering Principles and C++ Classes",
+                    "arc": "ca",
+                    "sessions": [],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        }
+                    ]
+                },
+                {
+                    "number": 2,
+                    "name": "Standard Template Library (STL)",
+                    "arc": "ca",
+                    "sessions": [],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        }
+                    ]
+                },
+                {
+                    "number": 3,
+                    "name": "Linked Lists",
+                    "arc": "ca",
+                    "sessions": [],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        }
+                    ]
+                },
+                {
+                    "number": 4,
+                    "name": "Recursion",
+                    "arc": "ca",
+                    "sessions": [],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        }
+                    ]
+                },
+                {
+                    "number": 5,
+                    "name": "Stacks",
+                    "arc": "ca",
+                    "sessions": [],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        }
+                    ]
+                },
+                {
+                    "number": 6,
+                    "name": "Queues",
+                    "arc": "final",
+                    "sessions": [],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        }
+                    ]
+                },
+                {
+                    "number": 7,
+                    "name": "Searching and Hashing Algorithms",
+                    "arc": "final",
+                    "sessions": [],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        }
+                    ]
+                },
+                {
+                    "number": 8,
+                    "name": "Sorting Algorithms",
+                    "arc": "final",
+                    "sessions": [],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        }
+                    ]
+                },
+                {
+                    "number": 9,
+                    "name": "Binary Trees and B-Trees",
+                    "arc": "final",
+                    "sessions": [],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        }
+                    ]
+                },
+                {
+                    "number": 10,
+                    "name": "Graphs",
+                    "arc": "final",
+                    "sessions": [],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        }
+                    ]
+                }
+            ],
+            "assignment": {
+                "total_q": 7,
+                "completed_q": 7,
+                "due_date": "2026-04-24",
+                "hours_spent": 0.0
+            },
+            "ca": {
+                "kind": "ca",
+                "due_date": "2026-05-13"
+            },
+            "final": {
+                "kind": "final",
+                "due_date": null
+            },
+            "archived": false
+        },
+        {
+            "code": "600",
+            "name": "Machine Learning",
+            "nqf_level": 6,
+            "credits": 10,
+            "current_phase": 4,
+            "ca_written": true,
+            "topics": [
+                {
+                    "number": 1,
+                    "name": "Introduction to Machine Learning",
+                    "arc": "ca",
+                    "sessions": [],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        }
+                    ]
+                },
+                {
+                    "number": 2,
+                    "name": "Data Preprocessing and Feature Engineering",
+                    "arc": "ca",
+                    "sessions": [],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        }
+                    ]
+                },
+                {
+                    "number": 3,
+                    "name": "Supervised Learning \u2014 Regression Algorithms",
+                    "arc": "ca",
+                    "sessions": [],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        }
+                    ]
+                },
+                {
+                    "number": 4,
+                    "name": "Supervised Learning \u2014 Classification Algorithms",
+                    "arc": "final",
+                    "sessions": [],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        }
+                    ]
+                },
+                {
+                    "number": 5,
+                    "name": "Unsupervised Learning \u2014 Clustering Algorithms",
+                    "arc": "final",
+                    "sessions": [],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        }
+                    ]
+                }
+            ],
+            "assignment": {
+                "total_q": 6,
+                "completed_q": 4,
+                "due_date": "2026-05-28",
+                "hours_spent": 0.0
+            },
+            "ca": {
+                "kind": "ca",
+                "due_date": "2026-05-08"
+            },
+            "final": {
+                "kind": "final",
+                "due_date": null
+            },
+            "archived": false
+        },
+        {
+            "code": "622",
+            "name": "Information Systems",
+            "nqf_level": 6,
+            "credits": 10,
+            "current_phase": 4,
+            "ca_written": true,
+            "topics": [
+                {
+                    "number": 1,
+                    "name": "Development Strategies",
+                    "arc": "ca",
+                    "sessions": [],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        }
+                    ]
+                },
+                {
+                    "number": 2,
+                    "name": "User Interface Design",
+                    "arc": "ca",
+                    "sessions": [],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        }
+                    ]
+                },
+                {
+                    "number": 3,
+                    "name": "Data Design",
+                    "arc": "ca",
+                    "sessions": [],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        }
+                    ]
+                },
+                {
+                    "number": 4,
+                    "name": "System Architecture",
+                    "arc": "final",
+                    "sessions": [],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        }
+                    ]
+                },
+                {
+                    "number": 5,
+                    "name": "Managing Systems Implementation",
+                    "arc": "final",
+                    "sessions": [],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        }
+                    ]
+                },
+                {
+                    "number": 6,
+                    "name": "Managing Systems Support and Security",
+                    "arc": "final",
+                    "sessions": [],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        }
+                    ]
+                }
+            ],
+            "assignment": {
+                "total_q": 3,
+                "completed_q": 3,
+                "due_date": "2026-04-10",
+                "hours_spent": 0.0
+            },
+            "ca": {
+                "kind": "ca",
+                "due_date": "2026-05-04"
+            },
+            "final": {
+                "kind": "final",
+                "due_date": null
+            },
+            "archived": false
+        },
+        {
+            "code": "600",
+            "name": "Big Data and IoT",
+            "nqf_level": 6,
+            "credits": 10,
+            "current_phase": 3,
+            "ca_written": false,
+            "topics": [
+                {
+                    "number": 1,
+                    "name": "Big Data Analysis and Extraction Techniques",
+                    "arc": "ca",
+                    "sessions": [
+                        {
+                            "date": "2026-05-17",
+                            "hours": 1.5,
+                            "note": "revision before CA"
+                        }
+                    ],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        },
+                        {
+                            "level": 2,
+                            "date": "2026-05-17",
+                            "hours_at_change": 1.5
+                        }
+                    ]
+                },
+                {
+                    "number": 2,
+                    "name": "IoT Architectures and Applications",
+                    "arc": "ca",
+                    "sessions": [],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        }
+                    ]
+                },
+                {
+                    "number": 3,
+                    "name": "IoT Technologies and Standards",
+                    "arc": "ca",
+                    "sessions": [],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        }
+                    ]
+                },
+                {
+                    "number": 4,
+                    "name": "Big Data Storage and Security",
+                    "arc": "final",
+                    "sessions": [],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        }
+                    ]
+                },
+                {
+                    "number": 5,
+                    "name": "Strategy Development and Big Data Analytics",
+                    "arc": "final",
+                    "sessions": [],
+                    "confidence_history": [
+                        {
+                            "level": 1,
+                            "date": "2026-02-23",
+                            "hours_at_change": 0.0
+                        }
+                    ]
+                }
+            ],
+            "assignment": {
+                "total_q": 4,
+                "completed_q": 4,
+                "due_date": "2026-04-24",
+                "hours_spent": 0.0
+            },
+            "ca": {
+                "kind": "ca",
+                "due_date": "2026-05-19"
+            },
+            "final": {
+                "kind": "final",
+                "due_date": null
+            },
+            "archived": false
+        }
+    ],
+    "archived": []
+}

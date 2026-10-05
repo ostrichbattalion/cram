@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cram System Test Results</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #1e1e1e;
+            color: #dcddde;
+            margin: 0;
+            padding: 40px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        header {
+            border-bottom: 1px solid #3e3e3e;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        h1 { margin: 0; color: #ffffff; font-size: 28px; }
+        .meta { color: #72767d; font-size: 14px; margin-top: 5px; }
+        .summary-cards {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        .card {
+            flex: 1;
+            background: #2f3136;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            border: 1px solid #36393f;
+        }
+        .card .value { font-size: 32px; font-weight: bold; color: #fff; }
+        .card .label { font-size: 12px; text-transform: uppercase; color: #b9bbbe; margin-top: 5px; }
+        .card.pass { border-left: 5px solid #43b581; }
+        .card.fail { border-left: 5px solid #f04747; }
+        .suite-section {
+            background: #2f3136;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #36393f;
+            overflow: hidden;
+        }
+        .suite-header {
+            background: #202225;
+            padding: 15px 20px;
+            font-weight: bold;
+            color: #ffffff;
+            border-bottom: 1px solid #36393f;
+        }
+        .test-row {
+            display: flex;
+            align-items: center;
+            padding: 15px 20px;
+            border-bottom: 1px solid #36393f;
+        }
+        .test-row:last-child { border-bottom: none; }
+        .test-info { flex: 1; }
+        .test-name { font-weight: 600; color: #f6f6f7; }
+        .test-doc { font-size: 13px; color: #b9bbbe; margin-top: 2px; }
+        .badge {
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+        }
+        .badge.pass { background-color: rgba(67, 181, 129, 0.2); color: #43b581; }
+        .badge.fail { background-color: rgba(240, 71, 71, 0.2); color: #f04747; }
+        .badge.error { background-color: rgba(250, 166, 26, 0.2); color: #faa61a; }
+        .error-log {
+            background: #111214;
+            color: #ff8383;
+            padding: 12px;
+            font-family: monospace;
+            font-size: 12px;
+            border-radius: 4px;
+            margin-top: 10px;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Cram Execution Validation Engine</h1>
+            <div class="meta">Executed on 2026-05-17 21:24:20 | Duration: 0.015s</div>
+        </header>
+
+        <div class="summary-cards">
+            <div class="card pass">
+                <div class="value">7</div>
+                <div class="label">Passed</div>
+            </div>
+            <div class="card fail">
+                <div class="value">3</div>
+                <div class="label">Failures</div>
+            </div>
+            <div class="card ">
+                <div class="value">0</div>
+                <div class="label">Errors</div>
+            </div>
+            <div class="card">
+                <div class="value">10</div>
+                <div class="label">Total Evaluated</div>
+            </div>
+        </div>
+
+        
+    <div class="suite-section">
+        <div class="suite-header">TestSAQANotionalHours</div>
+        
+        <div class="test-row">
+            <div class="test-info">
+                <div class="test-name">test_derived_self_study_budget_deductions</div>
+                <div class="test-doc">Confirm that self-study budget accounts for credits, contact time, and questions.</div>
+                
+            </div>
+            <div>
+                <span class="badge pass">PASS</span>
+            </div>
+        </div>
+        <div class="test-row">
+            <div class="test-info">
+                <div class="test-name">test_phase_budget_allocations</div>
+                <div class="test-doc">Verify that phase weight coefficients match exact study guide distributions.</div>
+                <div class="error-log">24.2 != 24.3</div>
+            </div>
+            <div>
+                <span class="badge fail">FAIL</span>
+            </div>
+        </div>
+    </div>
+    <div class="suite-section">
+        <div class="suite-header">TestBurnDownCalculations</div>
+        
+        <div class="test-row">
+            <div class="test-info">
+                <div class="test-name">test_burn_down_exhausted_or_passed</div>
+                <div class="test-doc">Ensure burn-down handles completed hours safely without plunging into negatives.</div>
+                
+            </div>
+            <div>
+                <span class="badge pass">PASS</span>
+            </div>
+        </div>
+        <div class="test-row">
+            <div class="test-info">
+                <div class="test-name">test_burn_down_with_active_target_date</div>
+                <div class="test-doc">Ensure daily hour burn-down calculates correctly based on assessment horizons.</div>
+                <div class="error-log">10.8 != 9.7</div>
+            </div>
+            <div>
+                <span class="badge fail">FAIL</span>
+            </div>
+        </div>
+    </div>
+    <div class="suite-section">
+        <div class="suite-header">TestWeeklyPlannerAndDayStates</div>
+        
+        <div class="test-row">
+            <div class="test-info">
+                <div class="test-name">test_intensive_day_auto_detection</div>
+                <div class="test-doc">Verify that logging long sessions automatically flips day state to 'intensive'.</div>
+                <div class="error-log">'active' != 'intensive'
+- active
++ intensive
+</div>
+            </div>
+            <div>
+                <span class="badge fail">FAIL</span>
+            </div>
+        </div>
+        <div class="test-row">
+            <div class="test-info">
+                <div class="test-name">test_light_day_state_caps_budget</div>
+                <div class="test-doc">Confirm that 'light' day state strictly caps recommendations at 1.0 hour.</div>
+                
+            </div>
+            <div>
+                <span class="badge pass">PASS</span>
+            </div>
+        </div>
+        <div class="test-row">
+            <div class="test-info">
+                <div class="test-name">test_rest_day_state_zeroes_budget</div>
+                <div class="test-doc">Confirm that 'off' day state zeroes out recommended targets and drops recommendations.</div>
+                
+            </div>
+            <div>
+                <span class="badge pass">PASS</span>
+            </div>
+        </div>
+    </div>
+    <div class="suite-section">
+        <div class="suite-header">TestDailyRecommender</div>
+        
+        <div class="test-row">
+            <div class="test-info">
+                <div class="test-name">test_phase_driven_topic_scoping</div>
+                <div class="test-doc">Ensure topic selection prioritises content matching the module's active phase.</div>
+                
+            </div>
+            <div>
+                <span class="badge pass">PASS</span>
+            </div>
+        </div>
+        <div class="test-row">
+            <div class="test-info">
+                <div class="test-name">test_soft_interleaving_cap</div>
+                <div class="test-doc">Verify that the recommender selects a maximum of 2 modules (Primary and Revisit).</div>
+                
+            </div>
+            <div>
+                <span class="badge pass">PASS</span>
+            </div>
+        </div>
+    </div>
+    <div class="suite-section">
+        <div class="suite-header">TestPersistenceSanity</div>
+        
+        <div class="test-row">
+            <div class="test-info">
+                <div class="test-name">test_cmd_log_session_mirrors_to_planner</div>
+                <div class="test-doc">Verify logging a session updates subject targets and shifts the daily tracker pool.</div>
+                
+            </div>
+            <div>
+                <span class="badge pass">PASS</span>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
